@@ -1,7 +1,7 @@
 li=[]
 n=int(input("enter the no of rows"))
 m=int(input("Enter the no of columns"))
-print("Enter first matrix")
+print("Enter matrix")
 for i in range(n):
     l=[]
     l=list(map(int,input().split()))
