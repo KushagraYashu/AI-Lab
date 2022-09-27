@@ -6,15 +6,8 @@ for i in range(n):
     l=[]
     l=list(map(int,input().split()))
     li.append(l)
-li2=[]
-print("Enter second matrix")
-for i in range(n):
-    l=[]
-    l=list(map(int,input().split()))
-    li2.append(l)
+lt=[]
 for i in range(n):
     for j in range(m):
-        li[i][j]+=li2[i][j]
-print("Sum: ")
-for i in li:
-    print(i)
+        lt.append(li[j][i])
+print(lt)
