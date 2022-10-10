@@ -1,5 +1,5 @@
 n=int(input("Enter Jug 1 capacity: "))
-m=int(input("Enter Jug 1 capacity: "))
+m=int(input("Enter Jug 2 capacity: "))
 j1,j2,j1Cap,j2Cap = 0,0,n,m
 
 target=int(input("Enter target value: "))
